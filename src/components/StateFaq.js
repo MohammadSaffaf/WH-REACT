@@ -1,6 +1,6 @@
 import { useState} from "react";
  const StateFaq = () => {
-    const [hidden, setHidden] = useState(false);
+    const [hidden, setHidden] = useState(true);
      return ( 
          <article className="counter-article">
              <section className="state-section">

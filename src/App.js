@@ -1,6 +1,7 @@
 
 import './App.css';
 import Counter from './components/Counter';
+import DayNightChang from './components/DayNightChang';
 import StateFaq from './components/StateFaq';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <article>
       <Counter/>
       <StateFaq/>
+      <DayNightChang/>
     </article>
   );
 }
