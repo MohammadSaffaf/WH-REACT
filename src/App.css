@@ -75,3 +75,19 @@
   background-color: black;
   color: gray;
 }
+.changmood {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.changmood button {
+  margin-bottom: 5%;
+}
+.changmood div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column: 20px;
+}
